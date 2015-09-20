@@ -15,7 +15,7 @@
 #import "InventoryViewController.h"
 #import "ASWOrderMagVC.h"
 #import "SellProductViewController.h"
-
+#import "IngredientsUploadTableViewController.h"
 
 @interface ViewControllerBase ()
 
@@ -88,7 +88,7 @@
         [self.navigationController pushViewController:order animated:YES];
         
     }else if (index == 2) {
-        SellProductViewController *sell = [[SellProductViewController alloc] initWithNibName:@"SellProductViewController" bundle:nil];
+        IngredientsUploadTableViewController *sell = [[IngredientsUploadTableViewController alloc] initWithNibName:@"IngredientsUploadTableViewController" bundle:nil];
         [self.navigationController pushViewController:sell animated:YES];
         
     }else if (index == 3) {

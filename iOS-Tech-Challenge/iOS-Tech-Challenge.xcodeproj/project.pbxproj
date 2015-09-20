@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		344377F61BAE6EB90087BC91 /* IngredientsUploadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344377F41BAE6EB90087BC91 /* IngredientsUploadTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		344377F71BAE6EB90087BC91 /* IngredientsUploadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 344377F51BAE6EB90087BC91 /* IngredientsUploadTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		344377FB1BAE6EF60087BC91 /* IngredientsUploadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344377F91BAE6EF60087BC91 /* IngredientsUploadTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		344377FC1BAE6EF60087BC91 /* IngredientsUploadTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 344377FA1BAE6EF60087BC91 /* IngredientsUploadTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		610F653A1BAD8A5F0083CC61 /* QntView.m in Sources */ = {isa = PBXBuildFile; fileRef = 610F65391BAD8A5F0083CC61 /* QntView.m */; settings = {ASSET_TAGS = (); }; };
 		610F653C1BAD8B250083CC61 /* QntView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610F653B1BAD8B250083CC61 /* QntView.xib */; settings = {ASSET_TAGS = (); }; };
 		611496891BAD8ECA00E4AF04 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 611496871BAD8ECA00E4AF04 /* add.png */; settings = {ASSET_TAGS = (); }; };
@@ -79,6 +83,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		344377F31BAE6EB90087BC91 /* IngredientsUploadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsUploadTableViewCell.h; sourceTree = "<group>"; };
+		344377F41BAE6EB90087BC91 /* IngredientsUploadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsUploadTableViewCell.m; sourceTree = "<group>"; };
+		344377F51BAE6EB90087BC91 /* IngredientsUploadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientsUploadTableViewCell.xib; sourceTree = "<group>"; };
+		344377F81BAE6EF60087BC91 /* IngredientsUploadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsUploadTableViewController.h; sourceTree = "<group>"; };
+		344377F91BAE6EF60087BC91 /* IngredientsUploadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsUploadTableViewController.m; sourceTree = "<group>"; };
+		344377FA1BAE6EF60087BC91 /* IngredientsUploadTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientsUploadTableViewController.xib; sourceTree = "<group>"; };
 		610F65381BAD8A5F0083CC61 /* QntView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QntView.h; sourceTree = "<group>"; };
 		610F65391BAD8A5F0083CC61 /* QntView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QntView.m; sourceTree = "<group>"; };
 		610F653B1BAD8B250083CC61 /* QntView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QntView.xib; sourceTree = "<group>"; };
@@ -213,6 +223,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		344377F21BAE6E8C0087BC91 /* IngredientsUpload */ = {
+			isa = PBXGroup;
+			children = (
+				344377FD1BAE6EFC0087BC91 /* Cell */,
+				344377F81BAE6EF60087BC91 /* IngredientsUploadTableViewController.h */,
+				344377F91BAE6EF60087BC91 /* IngredientsUploadTableViewController.m */,
+				344377FA1BAE6EF60087BC91 /* IngredientsUploadTableViewController.xib */,
+			);
+			name = IngredientsUpload;
+			sourceTree = "<group>";
+		};
+		344377FD1BAE6EFC0087BC91 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				344377F31BAE6EB90087BC91 /* IngredientsUploadTableViewCell.h */,
+				344377F41BAE6EB90087BC91 /* IngredientsUploadTableViewCell.m */,
+				344377F51BAE6EB90087BC91 /* IngredientsUploadTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		610F65371BAD8A5F0083CC61 /* QntView */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +315,7 @@
 		61704DD81BAD605A00617704 /* iOS-Tech-Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				344377F21BAE6E8C0087BC91 /* IngredientsUpload */,
 				61F84DAE1BAE503100096733 /* order */,
 				611496CA1BAE477F00E4AF04 /* Sell */,
 				611496C61BADB28F00E4AF04 /* MBProgressHUD */,
@@ -529,6 +561,7 @@
 				61F84DD31BAE503100096733 /* Order.jpg in Resources */,
 				611496BC1BADB0BF00E4AF04 /* profile@2x.png in Resources */,
 				61704E381BAD619400617704 /* logo.png in Resources */,
+				344377FC1BAE6EF60087BC91 /* IngredientsUploadTableViewController.xib in Resources */,
 				611496BB1BADB0BF00E4AF04 /* profile.png in Resources */,
 				61F84DD81BAE61FC00096733 /* Main.storyboard in Resources */,
 				611496CF1BAE479A00E4AF04 /* SellProductViewController.xib in Resources */,
@@ -561,6 +594,7 @@
 				61704E351BAD619400617704 /* 9.jpg in Resources */,
 				611496BE1BADB0BF00E4AF04 /* star@2x.png in Resources */,
 				61704DE61BAD605A00617704 /* Assets.xcassets in Resources */,
+				344377F71BAE6EB90087BC91 /* IngredientsUploadTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +646,7 @@
 				DB076D3F1BADA32400E5AD6F /* SJDataTableView.m in Sources */,
 				61704E491BAD75F500617704 /* UUBarChart.m in Sources */,
 				610F653A1BAD8A5F0083CC61 /* QntView.m in Sources */,
+				344377FB1BAE6EF60087BC91 /* IngredientsUploadTableViewController.m in Sources */,
 				61F84DD01BAE503100096733 /* ASWOrderModel.m in Sources */,
 				611496C11BADB0F200E4AF04 /* RNFrostedSidebar.m in Sources */,
 				61704E4D1BAD75F500617704 /* UULineChart.m in Sources */,
@@ -634,6 +669,7 @@
 				61704E4A1BAD75F500617704 /* UUChart.m in Sources */,
 				61704DDB1BAD605A00617704 /* main.m in Sources */,
 				DB076D431BADA35A00E5AD6F /* InventoryViewController.m in Sources */,
+				344377F61BAE6EB90087BC91 /* IngredientsUploadTableViewCell.m in Sources */,
 				61F84DD11BAE503100096733 /* ASWOrderVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
